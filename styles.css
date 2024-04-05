@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    width: 100%;
+}
+caption{
+    font-size: 20px;
+    color: peru;
+}
+caption a{
+    text-decoration: none;
+    color: brown;
+}
+h1{
+    text-align: center;
+    color: green;
+    margin-bottom: 20px;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0.7rem;
+    /* border: 2px solid green; */
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    margin: 0px 20px;
+    text-align: left;
+    border-radius: 7px;
+  }
+
+  td, th {
+    /* border: 1px solid blue; */
+    border-radius: 7px;
+    /* padding: 0px 10px; */
+    font-weight: 600;
+    font-size: larger;
+  }
+  tr:nth-child(even) td {
+    /* background-color: pink; */
+    text-align: center;
+  }
+  tr:nth-child(even) th {
+    background-color: grey;
+    text-align: center;
+  }
+  tr:nth-child(odd) th {
+    background-color: grey;
+    text-align: center;
+  }
+  tr:nth-child(odd) td {
+    /* background-color: orchid; */
+    text-align: center;
+  }
+  .two2{
+    background-color: white !important;
+  }
+  .dwarf-p{
+    text-align: center;
+  }
+  thead,
+  tfoot{
+    text-align: center;
+    font-size: 15px;
+  }
+
+tr a{
+  text-decoration: none;
+  color: brown;
+}
